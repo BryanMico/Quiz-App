@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "Baril-Quiz-App",
+    "name": "Quiz Quest",
     "slug": "Baril-Quiz-App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/quizquestIcon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/quizquestIcon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bryanryikes.BarilQuizApp"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/quizquestIcon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bryanryikes.BarilQuizApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/quizquestIcon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1a99f0dc-97ec-4b3f-9b82-ee69e2a2c075"
+      }
     }
   }
 }
